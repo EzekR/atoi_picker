@@ -1,8 +1,7 @@
-name: image_picker
-description: Flutter plugin for selecting images from the Android and iOS image
-  library, and taking new pictures with the camera.
-homepage: https://github.com/flutter/plugins/tree/master/packages/image_picker/image_picker
-version: 0.6.6+1
+name: atoi_picker
+description: fork from official repo to fix severe bugs
+homepage: https://github.com/EzekR/atoi_picker
+version: 0.0.1
 
 flutter:
   plugin:
