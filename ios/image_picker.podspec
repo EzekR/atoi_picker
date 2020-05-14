@@ -2,25 +2,20 @@
 # To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 Pod::Spec.new do |s|
-  s.name             = 'image_picker'
+  s.name             = 'atoi_picker'
   s.version          = '0.0.1'
-  s.summary          = 'Flutter plugin that shows an image picker.'
+  s.summary          = 'A new flutter plugin project.'
   s.description      = <<-DESC
-A Flutter plugin for picking images from the image library, and taking new pictures with the camera.
-Downloaded by pub (not CocoaPods).
+A new flutter plugin project.
                        DESC
-  s.homepage         = 'https://github.com/flutter/plugins'
-  s.license          = { :type => 'BSD', :file => '../LICENSE' }
-  s.author           = { 'Flutter Dev Team' => 'flutter-dev@googlegroups.com' }
-  s.source           = { :http => 'https://github.com/flutter/plugins/tree/master/packages/image_picker' }
-  s.documentation_url = 'https://pub.dev/packages/image_picker'
+  s.homepage         = 'http://example.com'
+  s.license          = { :file => '../LICENSE' }
+  s.author           = { 'Your Company' => 'email@example.com' }
+  s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
-  s.platform = :ios, '8.0'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'VALID_ARCHS' => 'armv7 arm64 x86_64' }
-
-  # s.test_spec 'Tests' do |test_spec|
-  #   test_spec.source_files = 'Tests/**/*'
-  end
+  s.ios.deployment_target = '8.0'
 end
+
+
